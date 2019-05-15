@@ -614,6 +614,21 @@
                   "padding": "0 2rem 2rem 2rem !important"
                 }
               }
+            },
+            ".user_text": {
+              "color": "#e4d295"
+            },
+            ".user_desk": {
+              "color": "#e4d295"
+            },
+            ".user_name": {
+              "color": "#e4d295"
+            },
+            "H2": {
+              "color": "#e4d295"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#e4d295"
             }
           },
           "_name": "testimonials4",
