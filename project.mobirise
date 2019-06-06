@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Risonanza",
-    "currentPage": "index.html",
+    "currentPage": "ambassadorservice.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -34,7 +34,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.0",
     "siteFonts": [],
-    "uniqCompNum": 67,
+    "uniqCompNum": 68,
     "versionPublish": "4.10.0",
     "screenshot": "screenshot.png"
   },
@@ -4584,7 +4584,7 @@
             "slides__showBullets": false,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/1-559x397.png",
+                "image": "@PROJECT_PATH@/assets/images/1-1-559x397.png",
                 "active": true,
                 "showButtons": false,
                 "showText": false,
@@ -4601,7 +4601,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/2-559x397.png",
+                "image": "@PROJECT_PATH@/assets/images/2-1-559x397.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -4618,7 +4618,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/3-559x397.png",
+                "image": "@PROJECT_PATH@/assets/images/3-1-559x397.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -4635,7 +4635,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/4-559x397.png",
+                "image": "@PROJECT_PATH@/assets/images/4-1-559x397.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -4652,7 +4652,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/5-559x397.png",
+                "image": "@PROJECT_PATH@/assets/images/5-1-559x397.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -4669,7 +4669,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/6-559x397.png",
+                "image": "@PROJECT_PATH@/assets/images/6-1-559x397.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -4686,7 +4686,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/7-559x397.png",
+                "image": "@PROJECT_PATH@/assets/images/7-1-559x397.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -4703,7 +4703,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/8-559x397.png",
+                "image": "@PROJECT_PATH@/assets/images/8-1-559x397.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -4720,7 +4720,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/9-559x397.png",
+                "image": "@PROJECT_PATH@/assets/images/9-1-559x397.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -4737,7 +4737,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/10-559x397.png",
+                "image": "@PROJECT_PATH@/assets/images/10-1-559x397.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
@@ -4754,58 +4754,7 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/11-559x397.png",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-2",
-                "customStyle2": "display-7",
-                "customStyle3": "display-4",
-                "title": "FULL SCREEN SLIDER",
-                "overlay": false,
-                "contentAlign": "center",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/12-559x397.png",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-2",
-                "customStyle2": "display-7",
-                "customStyle3": "display-4",
-                "title": "FULL SCREEN SLIDER",
-                "overlay": false,
-                "contentAlign": "center",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/13-559x397.png",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-2",
-                "customStyle2": "display-7",
-                "customStyle3": "display-4",
-                "title": "FULL SCREEN SLIDER",
-                "overlay": false,
-                "contentAlign": "center",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/14-559x397.png",
+                "image": "@PROJECT_PATH@/assets/images/11-1-559x397.png",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
