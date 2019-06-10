@@ -5072,6 +5072,24 @@ body {
 .cid-rsvH1gGq0q .content-slider-wrap {
   width: 60%;
 }
+.cid-rt1jbw7FAN {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-rt1jbw7FAN .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rt1jbw7FAN .mbr-figure {
+    padding-bottom: 1rem;
+  }
+}
+.cid-rt1jbw7FAN .mbr-text {
+  color: #767676;
+}
 .cid-rsvMh10Bwl {
   padding-top: 60px;
   padding-bottom: 60px;
