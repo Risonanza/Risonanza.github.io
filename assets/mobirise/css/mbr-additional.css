@@ -1797,6 +1797,29 @@ body {
 .cid-rpYlVJfm3h .mbr-step-text {
   color: #767676;
 }
+.cid-rtWVY62xt1 {
+  background: #ffffff;
+}
+.cid-rtWVY62xt1 .image-block {
+  margin: auto;
+  width: 100% !important;
+}
+.cid-rtWVY62xt1 .mbr-figure {
+  margin: 0 auto;
+}
+.cid-rtWVY62xt1 figcaption {
+  position: relative;
+}
+.cid-rtWVY62xt1 figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rtWVY62xt1 .image-block {
+    width: 100% !important;
+  }
+}
 .cid-rrddYWVWT0 {
   background: #ffffff;
   padding-top: 60px;
