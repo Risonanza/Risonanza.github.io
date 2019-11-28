@@ -167,11 +167,18 @@
         updateMasonry(event);
     });
 
+    $(document).on('lazyload', function(event) {
+        updateMasonry(event);
+        $(window).scrollEnd(function(){
+            updateMasonry(event);
+        }, 250)
+    });
+
     $('.mbr-gallery-item').on('click', 'a', function(e) {
         e.stopPropagation();
     });
 
-    var timeout2, timeout, flagShowLightBox=false;
+    var timeout2, timeout, objectLightBox;
 
     /* Lightbox Fit */
     function styleVideo($carouselItem, wndH, windowPadding, bottomPadding){
@@ -183,12 +190,22 @@
 
     function styleImg($carouselItem, wndH, wndW, windowPadding, bottomPadding){
         var $currentImg = $carouselItem.find('img');
+        if ($currentImg[0].complete && $currentImg[0].naturalWidth>50 && $currentImg[0].naturalHeight>50) {
+            setCSStoImage($currentImg,$carouselItem, wndH, wndW, windowPadding, bottomPadding)
+        } else {
+            $currentImg.one('load', function() {
+                setCSStoImage($currentImg,$carouselItem, wndH, wndW, windowPadding, bottomPadding)
+            })
+        }
+    }
 
+    function setCSStoImage(image,item, wndH, wndW, windowPadding, bottomPadding) {
         var setWidth, setTop;
-        var lbW = $currentImg[0].naturalWidth;
-        var lbH = $currentImg[0].naturalHeight;
 
-         // height change
+        var lbW = image[0].naturalWidth;
+        var lbH = image[0].naturalHeight;
+
+        // height change
         if (wndW / wndH > lbW / lbH) {
             var needH = wndH - bottomPadding * 2;
             setWidth = needH * lbW / lbH;
@@ -201,11 +218,11 @@
         // set top to vertical center
         setTop = (wndH - setWidth * lbH / lbW) / 2;
 
-        $currentImg.css({
+        image.css({
             width: parseInt(setWidth),
             height: setWidth * lbH / lbW
         });
-        $carouselItem.css('top', setTop + windowPadding);
+        item.css('top', setTop + windowPadding);
     }
 
     function timeOutCarousel($lightBox, wndW, wndH, windowPadding, bottomPadding, flagResize){
@@ -229,31 +246,29 @@
         var wndW = $(window).width() - windowPadding * 2;
         var wndH = $(window).height() - windowPadding * 2;
 
-        var $lightbox = $('.mbr-gallery .modal');
-        if (!$lightbox.length || !flagShowLightBox) {
+        if (!objectLightBox) {
             return;
         }
-        $lightbox.each(function() {
-            var $carouselItemActive, flagResize = false;
-            if ($(this).find('.modal-dialog .carousel-item.carousel-item-next, .modal-dialog .carousel-item.carousel-item-prev').length){
-                $carouselItemActive = $(this).find('.modal-dialog .carousel-item.carousel-item-next, .modal-dialog .carousel-item.carousel-item-prev');
-            }
-            else{
-                $carouselItemActive = $(this).find('.modal-dialog .carousel-item.active');
-                flagResize = true;
-            }
 
-            if($carouselItemActive[0].classList.contains('video-container')){
-                styleVideo($carouselItemActive, wndH, windowPadding, bottomPadding);
-            }
-            else{
-                styleImg($carouselItemActive, wndH, wndW, windowPadding, bottomPadding);
-            }
+        var $carouselItemActive, flagResize = false;
+        if (objectLightBox.find('.modal-dialog .carousel-item.carousel-item-next, .modal-dialog .carousel-item.carousel-item-prev').length){
+            $carouselItemActive = objectLightBox.find('.modal-dialog .carousel-item.carousel-item-next, .modal-dialog .carousel-item.carousel-item-prev');
+        }
+        else{
+            $carouselItemActive = objectLightBox.find('.modal-dialog .carousel-item.active');
+            flagResize = true;
+        }
 
-            clearTimeout(timeout);
+        if($carouselItemActive[0].classList.contains('video-container')){
+            styleVideo($carouselItemActive, wndH, windowPadding, bottomPadding);
+        }
+        else{
+            styleImg($carouselItemActive, wndH, wndW, windowPadding, bottomPadding);
+        }
 
-            timeout = setTimeout( timeOutCarousel, 200, $(this), wndW, wndH, windowPadding, bottomPadding, flagResize);
-        });
+        clearTimeout(timeout);
+
+        timeout = setTimeout( timeOutCarousel, 200, objectLightBox, wndW, wndH, windowPadding, bottomPadding, flagResize);
 
     }
 
@@ -273,7 +288,7 @@
             }
         }, 500);
 
-        flagShowLightBox = true;
+        objectLightBox = $(e.target);
 
         fitLightbox();
 
@@ -304,6 +319,6 @@
             player.pauseVideo ? player.pauseVideo() : player.pause();
         });
 
-        flagShowLightBox = false;
+        objectLightBox = null;
     });
 }(jQuery));
