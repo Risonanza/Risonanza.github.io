@@ -4666,6 +4666,25 @@ section.lazy-placeholder:after {
 .cid-rOxkRS7n4w .card-wrapper {
   height: 100%;
 }
+.cid-rP5pOQv514 {
+  padding-top: 120px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-rP5pOQv514 .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 992px) {
+  .cid-rP5pOQv514 .mbr-figure {
+    padding-top: 1rem;
+  }
+}
+.cid-rP5pOQv514 .mbr-text {
+  color: #767676;
+  text-align: left;
+}
 .cid-rq5DbZGwV4 .navbar {
   padding: .5rem 0;
   background: #333333;
@@ -5066,7 +5085,7 @@ section.lazy-placeholder:after {
   color: #c1c1c1 !important;
 }
 .cid-rO3DYl5zNh {
-  padding-top: 120px;
+  padding-top: 45px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
